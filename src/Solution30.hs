@@ -12,7 +12,7 @@ sum5_1a n | n == 354294 = 0
           | otherwise = sum5_1a (n+1)
 
 sum5_1 :: Int
-sum5_1 = sum5_1a 0
+sum5_1 = sum5_1a 10
 
 -- рекурсия
 sum5_2a :: Int -> Int
